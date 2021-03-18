@@ -2,6 +2,10 @@ nav{
   height: 60px;
 }
 
+nav>p, button, li{
+  margin-top: 4%;
+}
+
 img{
   max-height: 200px;
   width: auto;
@@ -14,6 +18,10 @@ img{
 
 .txt-w{
   color: #fff;
+}
+
+s{
+   margin: 5px;
 }
 
 .back-bg{
@@ -65,5 +73,5 @@ img{
 }
 
 .fnt{
-  font-size: 10px;
+  font-size: 8px;
 }
