@@ -1,13 +1,20 @@
 nav{
+  position: fixed;
+  z-index: 999;
   height: 60px;
+  width: 100%;
 }
 
 nav>p, button, li{
   margin-top: 4%;
 }
 
+.mg-top{
+  margin-top: 60px;
+}
+
 img{
-  max-height: 200px;
+  max-height: 264px;
   width: auto;
   border-radius: 10px;
 }
