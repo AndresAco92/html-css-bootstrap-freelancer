@@ -1,20 +1,15 @@
-nav .col-xs-6{
+nav{
   height: 60px;
 }
 
-.square{
-  border: 1px solid #fff;
-  padding: 3px 7px;
-  border-radius: 4px;
-}
-
-.col-xs-12 img{
+img{
   max-height: 200px;
   width: auto;
+  border-radius: 10px;
 }
 
 .star{
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .txt-w{
@@ -29,41 +24,13 @@ nav .col-xs-6{
   background-color: #1ABC9C;
 }
 
-.back-red{
-  background-color: #BA4D63;
-}
-
-.back-bv{
-  background-color: #1FA4B6;
-}
-
-.back-bk{
-  background-color: black;
-}
-
-.back-cl{
-  background-color: #1C83C1;
-}
-
-.back-blu{
-  background-color: #1137B5;
-}
-
-.back-cm{
-  background-color: #CCB2A3;
-}
-
 .back-lgb{
   background-color: #3A546D;
 }
 
-.bd-r{
-  border-radius: 10px;
-}
-
 .mg-in{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .pd-in{
@@ -72,5 +39,31 @@ nav .col-xs-6{
 }
 
 .br-bttm{
+  padding-left: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
   border-bottom: 1px solid lightgray;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.w-60{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.br-rad{
+  border-radius: 50%;
+  padding:10px;
+  border: 1px solid #fff;
+  font-size: 7px;
+}
+
+.txt-green{
+  color: #1FAC95;
+}
+
+.fnt{
+  font-size: 10px;
 }
